@@ -1,0 +1,17 @@
+/* O Asterisco é o Seletor Universal * */
+*{ font-family: arial;}
+
+/* Seletor de elemento 
+h1{ color: green;}
+h2{ color: green;}
+h3{ color: green;}
+*/
+
+/* Agrupamento de seletores em um único bloco*/
+h1, h2, h3 { color: blue;}
+
+/* Seletor de elementos Descendentes*/
+div p{color: red;}
+
+/* Seletor de elementos filhos */
+div > span {color: blue;}

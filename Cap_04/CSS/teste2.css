@@ -1,0 +1,8 @@
+/* O Asterisco é o Seletor Universal * */
+*{ font-family: arial;}
+
+/* Seletor de elemento Adjacente*/
+h5 + h4 { color: orange;}
+
+/* Seletor de primeiro filho */
+h4:first-child{color: aqua;}

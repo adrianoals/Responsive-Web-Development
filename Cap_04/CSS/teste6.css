@@ -1,0 +1,15 @@
+/* Links não visitados */
+a:link {background-color: lightblue;}
+
+/* links já visitados */
+a:visited {background-color: lightpink;}
+
+/* Links no momento que é selecionado */
+a:active {color: red;}
+
+/* links quando o mouse estiver sobre eles */
+a:hover {background-color: yellow;}
+
+/* Quando um campo está em foco */
+input:focus {background-color: aqua;}
+

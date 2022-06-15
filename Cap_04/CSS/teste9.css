@@ -1,0 +1,9 @@
+/*utilizando o atributo pelo ínicio do seu valor*/
+/* formata a fonte do texto em itálico  */
+[lang|=en] {font-style: italic; 
+    font-size: 2em;}
+
+/*utilizando um atributo por parte de seu valor*/
+/* formata uma borda sólida de 3 pixels de espessura, na cor amarela */
+img[title~=Fondue] {border: 3px solid yellow;}
+
