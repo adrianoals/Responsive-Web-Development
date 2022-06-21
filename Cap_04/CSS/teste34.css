@@ -1,0 +1,31 @@
+
+/* EXEMPLO39.CSS (CONTINUAÇÃO) */
+@media screen and (min-width: 700px) {
+    article {
+      width: 700px;
+      height: 340px;}
+  
+  
+    div.logo-padrao {
+      width: 570px;
+      background-image: url('/Imagens/logofiap.jpg');
+      height: 90px;
+    }
+    
+    header {
+      width: 570px;
+    }
+    
+    section {
+      width: 570px;
+    }
+    aside {
+      position: relative;
+      top: -326px;
+      left: 590px;
+      width: 90px;
+      height: 317px;
+      border: 2px solid red;
+      padding: 5px;
+    }
+}
