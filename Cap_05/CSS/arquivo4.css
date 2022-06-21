@@ -1,0 +1,15 @@
+.container-fluid {
+    background-color: var(--bs-secondary);
+  }
+
+  .row {
+    background-color: var(--bs-primary);
+  }
+
+  .col-md-4 {
+    background-color: var(--bs-info);
+  }
+
+  .col-md-8 {
+    background-color: var(--bs-warning);
+  }
