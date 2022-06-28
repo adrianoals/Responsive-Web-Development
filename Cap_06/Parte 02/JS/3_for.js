@@ -1,9 +1,8 @@
-window.onload = function() {
+window.onload = function()
+{
   var objDivSaida = document.getElementById("saida");
   
-  var i = 1;
-  while(i <= 10) {
+  for(var i = 1; i <= 10; i++) {
 	  objDivSaida.innerHTML += i + "<br>";
-	  i++;
   }
 }
